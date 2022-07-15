@@ -1,0 +1,42 @@
+/* 
+Block element
+- by default take full width
+- respact width height
+- respact margin padding
+- make break line after and before
+
+*/
+
+/* 
+Inline element
+- by default does not take full width
+- does not respact width height
+- respact margin padding just [left right]
+- make element at same line
+*/
+/* 
+Inline Block element
+- by default does not take full width
+- respact width height
+- respact margin padding 
+- make element at same line
+*/
+
+div{
+    background-color:lightblue;
+    margin:10px;
+    padding:10px;
+}
+
+span{
+    background-color:lightblue;
+    margin:10px;
+    padding:10px;
+}
+.inlineblock{
+    display: inline-block;
+    margin:20px;
+    padding:20px;
+    width:200px;
+    height: 200px;
+}
