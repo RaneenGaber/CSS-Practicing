@@ -1,0 +1,26 @@
+div{
+    background-color: lightblue;
+    /* top right bottum left
+        20  30     20    30
+
+        Padding not accept negative value
+        internal space
+    */
+    width: 70%;
+    padding:20px 30px;
+
+    /* accept negative value
+    external space
+     */
+    margin: 20px auto;
+
+    /* border-width border-style border-color */
+
+    border: 2px solid rgb(20, 63, 117) ;
+
+    /* Outline
+    مش بيتحسب من مساحه العنصر
+     */
+     outline: 3px solid black;
+}
+
