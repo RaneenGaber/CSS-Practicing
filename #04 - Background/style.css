@@ -1,0 +1,28 @@
+    /* 
+    
+            color
+    background-color:red;
+    background-color:rgb(0 0 255);   red green blue 
+    background-color:#ff0000;    hex code
+
+ */
+
+
+
+body{
+    background-image: url(img/20220321_154425.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-attachment: fixed;
+    background-size: cover;          
+    color:white;
+
+
+   
+}
+.container{
+    width: 350px;
+    background-color:rgb(197, 133, 191);
+
+
+}
