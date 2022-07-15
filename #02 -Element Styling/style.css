@@ -1,0 +1,11 @@
+/* Target all Paragraphs  */
+
+p{
+    color:red;
+}
+
+ /* Target all element has same class name  */
+
+ .sptial{
+     color:green;
+ }
