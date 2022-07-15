@@ -1,0 +1,8 @@
+.first{
+
+    /* when disapper  the next element take his place */
+    display:none;
+        /* when disapper  it still book his place */
+
+    visibility:hidden;
+}
