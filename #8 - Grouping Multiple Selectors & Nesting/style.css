@@ -1,0 +1,26 @@
+.one{
+    color:red;
+    border-bottom: 3px solid red;
+}
+.two{
+    color:yellow;
+    border-bottom:3px solid yellow;
+}
+.three{
+    color:green;
+    border-bottom:3px solid green;
+}
+.four{
+    color:blue;
+    border-bottom:3px solid blue;
+}
+.one , .two , .three, .four{
+    height:70px;
+    
+    padding:10px;
+    margin: 20px ;
+    background-color:lightgrey;
+}
+div p{
+    color: red; 
+}
