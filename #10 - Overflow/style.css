@@ -1,0 +1,10 @@
+div{
+    background-color: aquamarine;
+    width:150px;
+    height:150px;
+    margin: 20px auto;
+    /* overflow: hidden; */
+    overflow-y:scroll;
+    /* it add scroll if content need */
+    overflow:auto; 
+}
