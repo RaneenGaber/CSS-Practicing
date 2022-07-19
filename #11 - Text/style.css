@@ -1,0 +1,45 @@
+/*
+        Text
+-Background-color
+-color
+-text-shadow h v blur color
+-text-align
+-direction
+-text-decoration: underline;
+-text-transform
+-letter-spacing
+-text-indent
+-line-heigth
+-word-spacing
+-white-space:nowrap;
+-text-overflow:elipses
+
+ */
+
+
+div{
+    background-color:rgb(188, 241, 241);
+    color:rgb(28, 28, 36);
+    text-shadow: 1px 1px 0.5px red;
+    font-size:30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    width:150px;
+    margin: 20px auto;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+
+}
+.arbic{
+    direction:rtl;
+        text-decoration: none;
+
+}
+p{
+    text-indent: 50px;
+    letter-spacing:3px;
+    line-height:1.5;
+}
