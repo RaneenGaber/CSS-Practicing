@@ -1,0 +1,31 @@
+/* 
+    CSS Units
+    px
+    em time
+    rem root time     [root element "html"]
+    percentage
+    vw view port       [for responsive]
+
+
+    Font
+    style
+    varient
+    weight
+ */
+
+
+
+.with-ser{
+    font-family:'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+.san-ser{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.san-ser,.with-ser{
+    font-size:30px;
+    text-transform: capitalize;
+}
+span{
+    font-size: 2vw;
+}
