@@ -1,0 +1,15 @@
+.child{
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:calc(94% / 5);
+    float:left;
+    margin-left:1%;
+    text-align: center;
+}
+
+
+
+.clear{
+    clear: both;
+}
