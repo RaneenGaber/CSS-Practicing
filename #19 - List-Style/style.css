@@ -1,0 +1,6 @@
+li{
+    background-color: aqua;
+    list-style-position: inside;
+    list-style-type:lower-roman;
+}
+/* list-style:none   to remove default style */
