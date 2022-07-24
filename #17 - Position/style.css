@@ -1,0 +1,14 @@
+div{
+    width: 70px;
+    text-align: center;
+    
+}
+.one{
+    background-color: aqua;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+.two{
+    background-color:gray;
+}
