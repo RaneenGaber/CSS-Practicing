@@ -1,0 +1,18 @@
+input{
+    border:2px solid black;
+}
+input:focus{
+        border:2px solid rgb(11, 139, 185);
+        outline: none
+
+
+}
+.ch:checked + label{
+    color:aqua
+}
+a:hover{
+    color:black;
+}
+a:visited{
+    color:green;
+}
