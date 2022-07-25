@@ -1,0 +1,12 @@
+.parent{
+    width:200px;
+    height:200px;
+    padding:10px;
+    background-color:aqua;
+    transition:all 1s linear 1s;
+}
+.parent:hover{
+    width:280px;
+    height:280px;
+    background-color:gray;
+}
