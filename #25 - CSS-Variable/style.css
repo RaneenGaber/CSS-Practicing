@@ -1,0 +1,20 @@
+
+
+:root{
+    --mainColor:rgba(20, 0, 200, 0.778);
+
+}
+div{
+    padding:20px;
+    background-color: var(--mainColor);
+}
+input{
+    border: 1px solid var(--mainColor);
+    padding:20px;
+}
+a:hover{
+    color:var(--mainColor);
+}
+h3{
+    color:var(--mainColor);
+}
