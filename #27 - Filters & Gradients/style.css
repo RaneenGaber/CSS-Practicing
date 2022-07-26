@@ -1,0 +1,32 @@
+img{
+    filter:grayscale(100%);
+}
+img:hover{
+    filter:grayscale(0)
+}
+
+div{
+    width:400px;
+    height:200px;
+    text-align:center;
+    padding:20px;
+    position: relative;
+    background-image:linear-gradient(to bottom,rgb(151, 255, 255) 20%,rgb(34, 194, 194) 40%,rgb(30, 120, 120) 80%,rgb(1, 43, 43))
+
+}
+div:before{
+    content:"";
+    position:absolute;
+    top:0px;
+    left:0;
+    height:10px;
+    width: 440px;
+    background-image:linear-gradient(to right ,aqua 40%,rgb(30, 120, 120) 80%,rgb(1, 43, 43))
+
+}
+a{
+    pointer-events: none;
+}
+p{
+    caret-color: red;
+}
