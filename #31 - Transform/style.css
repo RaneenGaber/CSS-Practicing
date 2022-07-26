@@ -1,0 +1,28 @@
+/*  Matrix 
+transform : matrix(scalex,skewx,skewy,scaley,tranlatex,translatey) 
+
+transform : scale3d(1,1,1,deg)
+ */
+
+.parent1,.parent,.parent2{
+    width:400px;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:aqua;
+    transition:all 0.5s linear
+}
+.parent:hover{
+    transform:scale(1.5) rotate(45deg);
+    opacity:0.5;
+
+
+
+}
+.parent1:hover{
+    transform: translate(150px,100px);
+}
+.parent2:hover{
+    transform: rotate3d(0,0,1,45deg)
+}
