@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  height: 100vh;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px ;
+  align-items: center;
+  justify-content:center;
+  grid-template-areas: 
+    "logo logo . nav nav nav nav nav nav nav"
+    "asid asid asid asid cont cont cont cont cont cont"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+h1 {
+  grid-area: logo;
+      text-align: center;
+
+}
+nav{
+    grid-area: nav;
+        text-align: center;
+
+}
+nav ul li{
+    display: inline-block;
+    padding-left:20px
+}
+aside{
+    grid-area: asid;
+        text-align: center;
+
+}
+section{
+    grid-area: cont;
+        text-align: center;
+
+}
+footer{
+    grid-area: foot;
+    text-align: center;
+}
