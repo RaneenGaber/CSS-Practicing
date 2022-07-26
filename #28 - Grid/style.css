@@ -1,0 +1,24 @@
+.parent{
+    width:800px;
+    height:500px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+.parent div, .parent1 div{
+    background-color:aqua;
+
+}
+
+.parent1{
+    width:800px;
+    height:500px;
+    background-color:gray;
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    justify-content:space-between;
+    align-items:center;
+    gap: 10px;
+}
